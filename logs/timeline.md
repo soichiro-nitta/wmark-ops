@@ -13,3 +13,5 @@
 - Decided target records should keep one uniform top-level window schema. App-specific fields should be optional context rather than different per-app record shapes.
 - Added an early SwiftUI app experiment with scan list, hover preview, click-to-copy, local selection mode, global shortcut registration, cursor-window highlight, and click-to-mark flow.
 - Added public-facing privacy and safety documentation to the implementation repository.
+- Closed MVP Issue #1 through Issue #7 after confirming the implementation is covered by `soichiro-nitta/wmark#1`.
+- Created follow-up Issue #8 for ScreenCaptureKit thumbnail evaluation and Issue #9 for distributable `.app` bundle, signing, notarization, and permission UI.
