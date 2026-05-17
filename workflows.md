@@ -14,3 +14,4 @@
 3. Stop when a target is stale, missing, or ambiguous.
 4. Do not move existing windows between Spaces automatically.
 5. For the MVP, target macOS windows first. Chrome tab title and URL are optional context, not required identity.
+6. Keep target records structurally uniform. App-specific details belong in optional context, not top-level identity fields.

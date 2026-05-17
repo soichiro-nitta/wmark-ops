@@ -10,3 +10,4 @@
 - Confirmed `CGWindowListCopyWindowInfo` can return visible window metadata, Chrome front tab title/URL can be read through AppleScript, and `CGWindowListCreateImage` can create a local thumbnail. `CGWindowListCreateImage` is deprecated on macOS 14, so ScreenCaptureKit should be evaluated before the production thumbnail path is finalized.
 - Recorded the macOS 14 thumbnail deprecation note in `gotchas.md` before continuing MVP implementation.
 - Decided the MVP should target macOS windows first. Chrome tab title and URL can remain optional context and do not need to be required for target identity.
+- Decided target records should keep one uniform top-level window schema. App-specific fields should be optional context rather than different per-app record shapes.
