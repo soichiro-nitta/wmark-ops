@@ -11,3 +11,5 @@
 - Recorded the macOS 14 thumbnail deprecation note in `gotchas.md` before continuing MVP implementation.
 - Decided the MVP should target macOS windows first. Chrome tab title and URL can remain optional context and do not need to be required for target identity.
 - Decided target records should keep one uniform top-level window schema. App-specific fields should be optional context rather than different per-app record shapes.
+- Added an early SwiftUI app experiment with scan list, hover preview, click-to-copy, local selection mode, global shortcut registration, cursor-window highlight, and click-to-mark flow.
+- Added public-facing privacy and safety documentation to the implementation repository.
