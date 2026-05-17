@@ -13,3 +13,4 @@
 2. Revalidate against current window state before operating.
 3. Stop when a target is stale, missing, or ambiguous.
 4. Do not move existing windows between Spaces automatically.
+5. For the MVP, target macOS windows first. Chrome tab title and URL are optional context, not required identity.
