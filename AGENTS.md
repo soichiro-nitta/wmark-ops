@@ -23,7 +23,7 @@
 - `context.md`: product background and operating assumptions.
 - `workflows.md`: repeated project workflows.
 - `gotchas.md`: risks and design constraints.
-- `logs/timeline.md`: short chronological work log.
+- `logs/timeline.md`: timeline index. Monthly entries live under `logs/timeline/YYYY-MM.md`.
 - `issue-templates/`: issue body templates.
 
 ## Issue Usage
